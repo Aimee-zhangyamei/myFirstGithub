@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+   list-style: none;
+}
+input,img{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+    display: block;
+    content: '';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+body{
+   font-family: "Microsoft yahei", "Î¢ÈíÑÅºÚ", "ËÎÌå", "Arial";
+    font-size: 14px;
+    background-color: #ffffff;
+}
+.content{
+    width: 759px;
+    height: 399px;
+    /*margin-left: 22px;
+    margin-top: 20px;*/
+    /*background-color: black;*/
+}
+.contenta{
+    position: relative;
+    /*box-shadow:  0 15px 30px rgba(0,0,0,.5);*/
+}
+.contentc{
+    /*position: absolute;*/
+    width: 225px;
+    height: 160px;
+    margin-top: 15px;
+    margin-left: 17px;
+    float: left;
+}
+.contenta img{
+    /*position: absolute;*/
+    width: 225px;
+    height: 127px;
+}
+.contenta .one{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 64px;
+    height: 18px;
+    /*line-height: 20px;*/
+    color: #ffffff;
+    background-color: #ffcc33;
+    /*float: right;*/
+    font-size: 15px;
+}
+.contenta .bag{
+    background-color: #ff6633;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 59px;
+    height: 14px;
+    color: #ffffff;
+    font-size: 13px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#ff6948 #e94e0c #fc5622 #ff7b32;
+}
+.contenta p{
+    position:absolute;
+    width: 225px;
+    height: 40px;
+    background-color:#675146 ;
+    bottom: 0;
+    opacity: 0.7;
+    color: white;
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.contentb{
+    background-color: #ffffff;
+    /*margin-top: 127px;*/
+    float: left;
+    height: 32px;
+    width: 225px;
+    /*line-height:2px;*/
+    /*bottom: 0;*/
+    line-height: 30px;
+    vertical-align: top;
+}
+.contentb  span{
+    color: #ff6600;
+    font-size: 15px;
+    padding-left: 4px;
+}
+.contentb span i{
+    color: #ff6600;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.contentb p.two{
+    display: inline;
+    color: #a9a9a9;
+    font-size: 12px ;
+    float: right;
+    padding-right: 6px;
+
+}
+.contentb p.three {
+    display: inline;
+    color: #a9a9a9;
+    font-size: 12px;
+}
+.contentc:hover {
+    /*display: block;
+    position: relative;
+    top: -1px;*/
+    box-shadow: 0 4px 4px rgba(244,118,240,0.5);
+    /*transition:1s;*/
+}
+
+
+
+
+
